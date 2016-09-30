@@ -1,8 +1,6 @@
+hola('Cristian');
 
-console.log('Hello world on external file');
+function hola($name) {
+    console.log('Hola'+ $name)
 
-
-$name = 'Cristian';
-
-//WINDOWS: navegadors.
-window.alert(window.$name);
+}
