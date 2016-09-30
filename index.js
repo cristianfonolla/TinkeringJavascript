@@ -1,10 +1,34 @@
 
 
 
-function a() {
-    $a= "";
+
+
+
+function fire(bool) {
+    var foo;
+
+    if (bool){
+        var foo = 'bar';
+        console.log(foo);
+    } else {
+        console.log(foo);
+    }
+
+fire(true);
+
+
+
+
+
+
+
+
 }
 
 
-//Variable locals
-console.log($a); //NO ES POT PERQUE ÉS UNA VARIABLE LOCAL DE LA FUNCIO DE DAL
+
+
+
+
+
+
